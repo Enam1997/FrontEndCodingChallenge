@@ -9,11 +9,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #03e786;
-  background: #252523;
+  flex-direction: column;
+  background: wheat;
 }
 
-.first {
+.mainBox {
   width: 600px;
   height: 600px;
   background: #2a3d81;
@@ -80,4 +80,17 @@ body {
   position: relative;
   top: -15px;
   right: 10px;
+}
+
+button {
+  width: 200px;
+  height: 70px;
+  font-size: 20px;
+  font-weight: 900;
+  color: wheat;
+  background: #252523;
+  margin-bottom: 30px;
+  border-radius: 20%;
+  cursor: pointer;
+  margin-top: 20px;
 }
